@@ -5,7 +5,7 @@ public class SnakeUC1
 
 		System.out.println("Welcome to Snake Ladder Match");
 
-		
+		double start_position=0;
 		
 
 	
