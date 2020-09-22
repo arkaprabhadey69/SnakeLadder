@@ -45,10 +45,10 @@ public class Snake
 			 default:
 			break;
 		}
-		
+		System.out.println("New Position after dice roll: "+new_position);
 	}
-		System.out.println("Final Position: "+ new_position);
-		
+		System.out.println(new_position);
+		System.out.println("Dice was rolled "+no_of_times+" times");
 
 
 
