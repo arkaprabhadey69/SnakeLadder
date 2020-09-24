@@ -8,9 +8,6 @@ public class Snake
 		double start_position=0;
 		double new_position=0;
 		
-
-		while(new_position<100)
-	{
 		
 		double dice=(Math.floor(Math.random()*10)%6)+1;
 		int options=(int)Math.floor(Math.random()*10)%3;
@@ -41,8 +38,8 @@ public class Snake
 			break;
 		}
 		
-	}
-		System.out.println("Final position after diceroll is: "+ new_position);
+	
+		
 		
 
 
