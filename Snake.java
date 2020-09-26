@@ -12,7 +12,7 @@ public class Snake
 		double new_position2=0;
 		int ch=(int)Math.floor(Math.random()*10)%2;
 
-		while(new_position1!=100||new_position2!=100)
+		while(new_position1!=100&&new_position2!=100)
 {
 		
 		if(ch==0)
